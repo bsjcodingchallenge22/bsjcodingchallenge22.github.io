@@ -25,6 +25,7 @@ document.querySelector(".modal-settings").hidden = true;
 document.querySelector(".overlay-settings").hidden = true;
 document.querySelector(".modal-info").hidden = true;
 document.querySelector(".overlay-info").hidden = true;
+document.querySelector(".chart").hidden = true;
 
 //main play button actions
 document.querySelector(".play").addEventListener("click", function () {
@@ -33,6 +34,7 @@ document.querySelector(".play").addEventListener("click", function () {
   document.querySelector("h1").hidden = true;
   document.querySelector(".settings").hidden = true;
   document.querySelector(".info").hidden = true;
+  document.querySelector(".chart").hidden = true;
   document.querySelector(".answer").hidden = false;
   document.querySelector(".question").hidden = false;
   document.querySelector(".enter").hidden = false;
@@ -232,6 +234,7 @@ document.querySelector(".exit").addEventListener("click", function () {
   document.querySelector(".question").textContent = "? x ?";
   document.querySelector(".settings").hidden = false;
   document.querySelector(".info").hidden = false;
+  document.querySelector(".chart").hidden = false;
 });
 
 //main menu button actions
@@ -262,6 +265,7 @@ document.querySelector(".main-menu").addEventListener("click", function () {
   document.querySelector(".question").textContent = "? x ?";
   document.querySelector(".settings").hidden = false;
   document.querySelector(".info").hidden = false;
+  document.querySelector(".chart").hidden = false;
 });
 
 //game logic
