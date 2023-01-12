@@ -25,7 +25,6 @@ document.querySelector(".modal-settings").hidden = true;
 document.querySelector(".overlay-settings").hidden = true;
 document.querySelector(".modal-info").hidden = true;
 document.querySelector(".overlay-info").hidden = true;
-document.querySelector(".chart").hidden = true;
 
 //main play button actions
 document.querySelector(".play").addEventListener("click", function () {
