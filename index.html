@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Times Tables!</title>
+  </head>
+  <body>
+    <h1>Times Tables!</h1>
+    <div class="progress-bar"> </div>
+    <input class="answer" maxlength="3" type="number" min="0" max="999"></input>
+    <button class="play btn">Play!</button>
+    <button class="howto btn">How To Play</button>
+    <button class="chart btn">Times Table Chart</button>
+    <button class="start btn">Start</button>
+    <button class="exit btn">⌂</button>
+    <button class="enter btn">Enter</button>
+    <p class="tick1">✓</p>
+    <p class="tick2">✓</p>
+    <p class="cross1">&times;</p>
+    <p class="cross2">&times;</p>
+    <p class="exitarrow"><-- Exit to Main Menu</p>
+    <p class="startmessage">Starting in 3...</p>
+    <p class="question">?  x  ?</p>
+    <p class="timer1">?</p>
+    <p class="timer2">?</p>
+    <p class="no-number">Please enter a number!</p>
+    <div class="modal">
+      <h1 class="gameover">Game Over!</h1>
+      <p class="score">
+        Score:
+      </p>
+      <button class="play-again">Play Again</button>
+      <button class="main-menu">Main Menu</button>
+    </div>
+    <div class="overlay"></div>
+    <div class="modal-howto">
+      <h1 class="howto-header">How To Play!</h1>
+      <p class="instructions">Answer the questions shown while the game is in progress, 
+        and type your answer to them in the box below it! 
+        When you're sure of your answer, hit the Enter button to submit your answer and get a new question! 
+        One correct answer equals 1 point, so answer as many questions as you can before the timer ends!</p>
+      <img class="howto-image" src="image.png"/>
+      <button class="close-modal">&times;</button>
+    </div>
+    <div class="overlay-howto"></div>
+    <button class="settings">&#9881</button>
+    <div class="modal-settings">
+      <h1 class="settings-title">Settings</h1>
+      <div class="colors">
+        <h1 class="color-title">Background Colour</h1>
+        <p class="color-note">Note: Colour choices are limited due to compatibility with text font colour. Also, windows, like this one, will not be affected by this setting.</p>
+        <button class="button color blue">Blue (default)</button>
+        <button class="button color red">Red</button>
+        <button class="button color green">Green</button>
+        <button class="button color yellow">Yellow</button>
+        <button class="button color orange">Orange</button>
+        <button class="button color grey">Grey</button>
+        <button class="button color black">Black</button>
+      </div>
+      <div class="limits">
+        <h1 class="limit-title">Difficulty (highest possible question)</h1>
+        <button class="button limit twelve">12 x 12 (default)</button>
+        <button class="button limit ten">10 x 10</button>
+        <button class="button limit eleven">11 x 11</button>
+        <button class="button limit thirteen">13 x 13</button>
+      </div>
+      <button class="close-modal-settings">&times;</button>
+    </div>
+    <div class="overlay-settings"></div>
+    <button class="info">ⓘ</button>
+    <div class="modal-info">
+      <h1 class="info-title">Information</h1>
+      <p class="text1">Programmed using HTML, JavaScript, and CSS</p>
+      <p class="text2">Written using Visual Studio Code</p>
+      <p class="text3">Published on GitHub</p>
+      <p class="bugs">Bugs addressed within the submission document</p>
+      <p class="source-code">Source code available here: <a href="https://github.com/bsjcodingchallenge22/bsjcodingcompetition22.github.io">GitHub repository</a></p>
+      <p class="coding">Created as a submission for the BSJ Coding Competition 2022</p>
+      <button class="close-modal-info">&times;</button>
+    </div>
+    <div class="overlay-info"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
