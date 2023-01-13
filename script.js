@@ -25,6 +25,8 @@ document.querySelector(".modal-settings").hidden = true;
 document.querySelector(".overlay-settings").hidden = true;
 document.querySelector(".modal-info").hidden = true;
 document.querySelector(".overlay-info").hidden = true;
+document.querySelector(".modal-chart").hidden = true;
+document.querySelector(".overlay-chart").hidden = true;
 
 //main play button actions
 document.querySelector(".play").addEventListener("click", function () {
@@ -484,8 +486,18 @@ document.querySelector(".info").addEventListener("click", function () {
 });
 
 document
-  .querySelector(".close-modal-info")
+  .querySelector(".close-modal-info") 
   .addEventListener("click", function () {
     document.querySelector(".modal-info").hidden = true;
     document.querySelector(".overlay-info").hidden = true;
   });
+
+document.querySelector(".chart").addEventListener("click", function () {
+   document.querySelector(".modal-chart").hidden = false;
+   document.querySelector(".overlay-chart").hidden = false;
+});
+
+document.querySelector(".close-modal-chart").addEventListener("click", function () {
+   document.querySelector(".modal-chart").hidden = true;
+   document.querySelector(".overlay-chart").hidden = true;
+});
