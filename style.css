@@ -901,6 +901,7 @@ h1 {
 
 .times-table-chart {
   border: 1px solid #797979;
+  border-collapse: collapse;
   color: #797979;
   font-size: 1.05rem;
   font-family: "Poppins", sans-serif;
